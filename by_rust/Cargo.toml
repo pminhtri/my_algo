@@ -1,0 +1,10 @@
+[package]
+name = "by_rust"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81.0"
+
+[dependencies]
+tokio = { version = "1.40.0", features = ["full"] }
+time = "0.3.36"
+mini-redis = "0.4"
