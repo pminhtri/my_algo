@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 import "math"
 

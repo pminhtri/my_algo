@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 func ThirdMax(nums []int) int {
 	max1, max2, max3 := -1<<63, -1<<63, -1<<63

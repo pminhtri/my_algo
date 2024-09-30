@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 func ValidParentheses(s string) bool {
 	stack := []rune{}

@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 func expandAroundCenter(s string, left, right int) int {
 	for left >= 0 && right < len(s) && s[left] == s[right] {

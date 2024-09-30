@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 func IntToRoman(num int) string {
 	var res string

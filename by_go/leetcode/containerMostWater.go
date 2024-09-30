@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 func ContainerMostWater(height []int) int {
 	max_area := 0

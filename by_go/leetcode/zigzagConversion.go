@@ -1,4 +1,4 @@
-package algo
+package leetcode
 
 func ZigzagConversion(s string, numRows int) string {
 	if numRows == 1 || numRows >= len(s) {
