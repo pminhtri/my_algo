@@ -2,9 +2,9 @@
 name = "by_rust"
 version = "0.1.0"
 edition = "2021"
-rust-version = "1.81.0"
+rust-version = "1.85.0"
 
 [dependencies]
-tokio = { version = "1.40.0", features = ["full"] }
-time = "0.3.36"
+tokio = { version = "1.44.1", features = ["full"] }
+time = "0.3.41"
 mini-redis = "0.4"
