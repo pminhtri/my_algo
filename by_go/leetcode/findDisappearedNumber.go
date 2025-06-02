@@ -12,7 +12,7 @@ func FindDisappearedNumbers(nums []int) []int {
 		}
 	}
 
-	for i := 0; i < len(nums); i++ {
+	for i := range nums {
 		if nums[i] > 0 {
 			res = append(res, i+1)
 		}

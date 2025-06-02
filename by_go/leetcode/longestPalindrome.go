@@ -16,7 +16,7 @@ func LongestPalindrome(s string) string {
 
 	var start, end int
 
-	for i := 0; i < len(s); i++ {
+	for i := range len(s) {
 		len1 := expandAroundCenter(s, i, i)
 		len2 := expandAroundCenter(s, i, i+1)
 		length := max(len1, len2)

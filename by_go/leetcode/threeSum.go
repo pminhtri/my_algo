@@ -11,7 +11,7 @@ func ThreeSum(nums []int) [][]int {
 
 	sort.Ints(nums)
 
-	for i := 0; i < len(nums)-2; i++ {
+	for i := range len(nums) - 2 {
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
