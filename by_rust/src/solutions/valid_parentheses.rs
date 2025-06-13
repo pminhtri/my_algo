@@ -1,3 +1,9 @@
+#[allow(unused)]
+
+/**
+ * Problem: https://leetcode.com/problems/valid-parentheses/
+ */
+
 pub fn valid_parentheses(s: String) -> bool {
     let mut stack = Vec::new();
     for c in s.chars() {

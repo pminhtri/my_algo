@@ -1,3 +1,5 @@
+#[allow(unused)]
+
 pub fn three_sum(nums: Vec<i32>) -> Vec<Vec<i32>> {
     let mut res = vec![];
     let mut nums = nums;

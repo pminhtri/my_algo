@@ -1,3 +1,9 @@
+#[allow(unused)]
+
+/**
+ * Problem: https://leetcode.com/problems/reverse-integer/
+ */
+
 pub fn reverse_integer(x: i32) -> i32 {
     let mut x = x;
     let mut res = 0;

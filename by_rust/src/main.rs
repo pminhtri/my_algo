@@ -1,6 +1,9 @@
-use tokio::main;
+mod sorts;
+mod solutions;
 
-#[main]
-async fn main() {
+#[allow(unused)]
+use sorts::{bubble_sort};
+
+fn main() {
     println!("This is my algorithm in Rust");
 }

@@ -1,3 +1,5 @@
+#[allow(unused)]
+
 pub fn binary_sort<T: Ord>(arr: &mut [T]) {
     let n = arr.len();
     for i in 1..n {

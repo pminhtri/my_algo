@@ -1,4 +1,10 @@
-pub fn integer_to_roman(num: i32) -> String {
+#[allow(unused)]
+
+/**
+ * Problem: https://leetcode.com/problems/integer-to-roman/
+ */
+
+pub fn int_to_roman(num: i32) -> String {
     let mut num = num;
     let mut roman = String::new();
     let roman_map = vec![

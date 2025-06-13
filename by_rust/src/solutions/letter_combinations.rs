@@ -1,3 +1,7 @@
+#[allow(unused)]
+/**
+ * Problem: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+ */
 pub fn letter_combinations(digits: String) -> Vec<String> {
     let mut res: Vec<String> = vec![];
     if digits.is_empty() {

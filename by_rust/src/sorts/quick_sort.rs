@@ -1,3 +1,4 @@
+#[allow(unused)]
 pub fn quick_sort<T: Ord>(arr: &mut [T]) {
     let n = arr.len();
     if n <= 1 {

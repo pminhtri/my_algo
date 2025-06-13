@@ -1,3 +1,4 @@
+#[allow(unused)]
 pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
     let n = arr.len();
     for i in 0..n {

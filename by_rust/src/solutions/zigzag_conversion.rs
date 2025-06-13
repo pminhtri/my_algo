@@ -1,3 +1,9 @@
+#[allow(unused)]
+
+/**
+ * Problem: https://leetcode.com/problems/zigzag-conversion/
+ */
+
 pub fn convert(s: String, num_rows: i32) -> String {
     if num_rows == 1 || num_rows >= s.len() as i32 {
         return s;

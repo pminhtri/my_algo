@@ -1,3 +1,4 @@
+#[allow(unused)]
 pub fn merge_sort<T: Ord + Clone>(arr: &mut [T]) {
     let n = arr.len();
     if n <= 1 {
