@@ -1,9 +1,9 @@
-mod sorts;
 mod solutions;
+mod sorts;
 
 #[allow(unused)]
-use sorts::{bubble_sort};
+use solutions::find_disappeared_numbers;
 
 fn main() {
-    println!("This is my algorithm in Rust");
+    println!("Leet to code")
 }

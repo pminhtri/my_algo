@@ -7,3 +7,5 @@ pub mod letter_combinations;
 pub mod zigzag_conversion;
 pub mod reverse_integer;
 pub mod container_with_most_water;
+pub mod contains_duplicate;
+pub mod missing_number;
