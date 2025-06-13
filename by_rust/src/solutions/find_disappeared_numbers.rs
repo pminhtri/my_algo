@@ -23,10 +23,11 @@ pub fn method1(nums: Vec<i32>) -> Vec<i32> {
     res
 }
 
+#[allow(unused)]
+
 pub fn method2(nums: Vec<i32>) -> Vec<i32> {
     let mut res: Vec<i32> = Vec::new();
     let set: HashSet<i32> = nums.iter().cloned().collect();
-
     let n = (nums.len() + 1) as i32;
 
     for i in 1..n {
