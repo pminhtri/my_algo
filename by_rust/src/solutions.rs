@@ -9,3 +9,4 @@ pub mod reverse_integer;
 pub mod container_with_most_water;
 pub mod contains_duplicate;
 pub mod missing_number;
+pub mod smaller_numbers_than_current;
