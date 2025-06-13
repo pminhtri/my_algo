@@ -10,3 +10,4 @@ pub mod container_with_most_water;
 pub mod contains_duplicate;
 pub mod missing_number;
 pub mod smaller_numbers_than_current;
+pub mod minimum_time_to_visit_all_points;
